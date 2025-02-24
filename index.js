@@ -4,7 +4,7 @@ const { Telegraf, Markup } = require("telegraf");
 const app = express();
 app.use(express.json());
 
-const TOKEN = "7390701571:AAGqmoG9a7VqSUKy5PaISYUNrQ3DnRbIY84"; // توکن ربات خود را اینجا قرار دهید
+const TOKEN = "7317761505:AAHUXL61jLcur4S2CKFRRaW85vDexrKvu44"; // توکن ربات خود را اینجا قرار دهید
 const ADMIN_ID = 2048310529; // آیدی ادمین
 const bot = new Telegraf(TOKEN);
 
