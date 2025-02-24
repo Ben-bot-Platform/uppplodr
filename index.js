@@ -35,7 +35,7 @@ app.post("/webhook", (req, res) => {
 });
 
 // تنظیم Webhook برای Vercel
-const WEBHOOK_URL = "https://your-vercel-project.vercel.app/webhook"; // 🔹 لینک Vercel را جایگزین کنید
+const WEBHOOK_URL = "https://uppplodr-upp-ipp.vercel.app/webhook"; // 🔹 لینک Vercel را جایگزین کنید
 bot.telegram.setWebhook(WEBHOOK_URL)
   .then(() => console.log("✅ Webhook set successfully!"))
   .catch((err) => console.error("❌ Error setting webhook:", err));
